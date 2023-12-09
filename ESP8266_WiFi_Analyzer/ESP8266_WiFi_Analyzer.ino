@@ -1,3 +1,36 @@
+/*
+   NodeMCU ESP8266 as a Network Testing Tool
+
+   This Arduino sketch transforms a NodeMCU ESP8266 with an integrated 0.96'' OLED Display
+   into a multifunctional network testing device. The project is designed for potential 
+   integration with Flipper Zero, enhancing its capabilities for network testing and 
+   security analysis. Currently, it functions as a Wi-Fi Access Point and displays connected 
+   clients on the OLED screen.
+
+   Features:
+   - Wi-Fi Access Point: Allows devices to connect and displays their connection status.
+   - Real-Time Client Display: Shows connected clients on the OLED display in real-time.
+   - Flipper Zero Integration (Planned): To enable advanced network testing operations.
+
+   Hardware Requirements:
+   - NodeMCU ESP8266 with a 0.96'' OLED Display
+
+   Software Requirements:
+   - Arduino IDE
+   - ESP8266WiFi library
+   - ESP8266WebServer library
+   - U8g2lib library
+
+   Installation & Usage:
+   - Detailed instructions will be available in the GitHub repository README.
+
+   Author: MichaelRM
+   Created: 12/9/2023
+   License: GNU General Public License v3.0
+
+   GitHub Repository: https://github.com/michaelRM/NodeMCU-WiFi-AP-Flipper
+*/
+
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>

@@ -19,14 +19,14 @@ This project turns a NodeMCU ESP8266, equipped with an integrated 0.96'' OLED Di
 
 ## Installation
 1. **Setup the Arduino Environment**: Install the Arduino IDE and the required libraries.
-2. **Load and Upload the Sketch**: Open the `NodeMCU_Network_Test_Tool.ino` file in the Arduino IDE and upload it to your NodeMCU.
+2. **Load and Upload the Sketch**: Open the `ESP8266_WiFi_Analyzer.ino` file in the Arduino IDE and upload it to your NodeMCU.
 
 ## Usage
 - **Connecting to the AP**: Search for the Wi-Fi network named "NodeMCU-AP" and connect using the provided credentials.
 - **Viewing Connected Clients**: Observe the OLED display on the NodeMCU for real-time client information.
 
-
 ## License
+This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
 
 ## Acknowledgments
 - Thanks to the open-source community for continuous inspiration and support.
